@@ -1,0 +1,49 @@
+.technologies{
+  margin: 0 30px;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 20px;
+}
+.techLogo{
+  width: 200px;
+}
+.front{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+.back{  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-items: center;
+}
+.back :nth-child(2) > img{
+  filter: invert(180);
+}
+.back :nth-child(3) > img{
+  filter: invert(180);
+}
+.tech{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5em;
+}
+.tech:hover{
+  scale: 1.03;
+  transition: ease-in-out .2s;
+}
+.tech > span{
+  margin-top: 5px;
+}

@@ -1,0 +1,43 @@
+nav{
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+.leftContainer{
+  display: flex;
+  height: 80px;
+  width: fit-content;
+}
+.rightContainer{
+  width: fit-content;
+  display: flex;
+  margin: auto 30px;
+}
+.logo{
+  margin: auto 30px;
+  display: flex;
+  flex-direction: row;
+}
+.logo > img {
+  height: 60px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+  margin: auto 0 auto 10px;
+  font-size: 1.2em;
+  align-items: center;
+}
+.button{
+  margin: auto 20px auto 0; 
+}
+.socials{
+  width: 40px;
+  border-radius: 50%;
+  filter: invert(180);
+  margin: auto 0 auto 20px;
+}

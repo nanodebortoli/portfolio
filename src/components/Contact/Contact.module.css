@@ -1,0 +1,20 @@
+.contact{
+  margin: 0 30px 30px;
+}
+.contact > h4{
+  margin: 10px 0;
+}
+.datos{
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.logo{
+  filter: invert(180);
+  height: 30px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}

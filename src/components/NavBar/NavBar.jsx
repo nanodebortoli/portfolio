@@ -26,7 +26,7 @@ const NavBar = () => {
         <a href='https://www.linkedin.com/in/ignaciodebortoli/' target='_blank'><img src={process.env.PUBLIC_URL + '/linkedin.svg'} alt='linkedin' className={styles.socials}/></a>
       </div>
     </nav>
-  )
-}
+  );
+};
 
 export default NavBar;

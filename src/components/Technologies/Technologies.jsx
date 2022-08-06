@@ -45,7 +45,7 @@ const Technologies = () => {
           </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Technologies;

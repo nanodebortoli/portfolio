@@ -1,11 +1,12 @@
 nav{
   height: 80px;
-  background-color: black;
+  background-color: #0f1624;
   display: flex;
   justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 1;
 }
 .leftContainer{
   display: flex;
@@ -31,9 +32,18 @@ nav{
   margin: auto 0 auto 10px;
   font-size: 1.2em;
   align-items: center;
+  color: white;
+  text-decoration: none;
 }
 .button{
   margin: auto 20px auto 0; 
+  color: white;
+  text-decoration: none;
+}
+.button:hover{
+  scale: 1.02;
+  transition: ease-in-out 0.3s;
+  color: white;
 }
 .socials{
   width: 40px;
